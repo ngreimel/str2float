@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit tests --group regression",
+        "test-bug1": "phpunit tests --group bug1",
+        "test-bug2": "phpunit tests --group bug2",
+        "test-all": "phpunit tests"
+    }
+}
